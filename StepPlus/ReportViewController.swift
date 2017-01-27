@@ -18,7 +18,7 @@ class ReportViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         reportLabel.text = "Arianna"
-        subLabel.text = "María"
+        subLabel.text = "Cameron"
     }
 
     override func didReceiveMemoryWarning() {
