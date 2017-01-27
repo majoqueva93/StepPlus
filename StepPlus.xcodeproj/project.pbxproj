@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48B6CD581E3C087000DA4BDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6CD571E3C087000DA4BDF /* AppDelegate.swift */; };
+		48B6CD5A1E3C087000DA4BDF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6CD591E3C087000DA4BDF /* HomeViewController.swift */; };
+		48B6CD5C1E3C087000DA4BDF /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6CD5B1E3C087000DA4BDF /* FeedbackViewController.swift */; };
+		48B6CD5F1E3C087000DA4BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B6CD5D1E3C087000DA4BDF /* Main.storyboard */; };
+		48B6CD611E3C087000DA4BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B6CD601E3C087000DA4BDF /* Assets.xcassets */; };
+		48B6CD641E3C087000DA4BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B6CD621E3C087000DA4BDF /* LaunchScreen.storyboard */; };
+		48B6CD6F1E3C087000DA4BDF /* StepPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6CD6E1E3C087000DA4BDF /* StepPlusUITests.swift */; };
+		48B6CD7A1E3C0E1000DA4BDF /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6CD791E3C0E1000DA4BDF /* ReportViewController.swift */; };
+		48B6CD7C1E3C0E6100DA4BDF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6CD7B1E3C0E6100DA4BDF /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48B6CD6B1E3C087000DA4BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48B6CD4C1E3C087000DA4BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48B6CD531E3C087000DA4BDF;
+			remoteInfo = StepPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48B6CD541E3C087000DA4BDF /* StepPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B6CD571E3C087000DA4BDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48B6CD591E3C087000DA4BDF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		48B6CD5B1E3C087000DA4BDF /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		48B6CD5E1E3C087000DA4BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48B6CD601E3C087000DA4BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48B6CD631E3C087000DA4BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48B6CD651E3C087000DA4BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B6CD6A1E3C087000DA4BDF /* StepPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B6CD6E1E3C087000DA4BDF /* StepPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepPlusUITests.swift; sourceTree = "<group>"; };
+		48B6CD701E3C087000DA4BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B6CD791E3C0E1000DA4BDF /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		48B6CD7B1E3C0E6100DA4BDF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B6CD511E3C087000DA4BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B6CD671E3C087000DA4BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B6CD4B1E3C087000DA4BDF = {
+			isa = PBXGroup;
+			children = (
+				48B6CD561E3C087000DA4BDF /* StepPlus */,
+				48B6CD6D1E3C087000DA4BDF /* StepPlusUITests */,
+				48B6CD551E3C087000DA4BDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48B6CD551E3C087000DA4BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48B6CD541E3C087000DA4BDF /* StepPlus.app */,
+				48B6CD6A1E3C087000DA4BDF /* StepPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48B6CD561E3C087000DA4BDF /* StepPlus */ = {
+			isa = PBXGroup;
+			children = (
+				48B6CD571E3C087000DA4BDF /* AppDelegate.swift */,
+				48B6CD591E3C087000DA4BDF /* HomeViewController.swift */,
+				48B6CD5B1E3C087000DA4BDF /* FeedbackViewController.swift */,
+				48B6CD791E3C0E1000DA4BDF /* ReportViewController.swift */,
+				48B6CD7B1E3C0E6100DA4BDF /* SettingsViewController.swift */,
+				48B6CD5D1E3C087000DA4BDF /* Main.storyboard */,
+				48B6CD601E3C087000DA4BDF /* Assets.xcassets */,
+				48B6CD621E3C087000DA4BDF /* LaunchScreen.storyboard */,
+				48B6CD651E3C087000DA4BDF /* Info.plist */,
+			);
+			path = StepPlus;
+			sourceTree = "<group>";
+		};
+		48B6CD6D1E3C087000DA4BDF /* StepPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48B6CD6E1E3C087000DA4BDF /* StepPlusUITests.swift */,
+				48B6CD701E3C087000DA4BDF /* Info.plist */,
+			);
+			path = StepPlusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48B6CD531E3C087000DA4BDF /* StepPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B6CD731E3C087000DA4BDF /* Build configuration list for PBXNativeTarget "StepPlus" */;
+			buildPhases = (
+				48B6CD501E3C087000DA4BDF /* Sources */,
+				48B6CD511E3C087000DA4BDF /* Frameworks */,
+				48B6CD521E3C087000DA4BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepPlus;
+			productName = StepPlus;
+			productReference = 48B6CD541E3C087000DA4BDF /* StepPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48B6CD691E3C087000DA4BDF /* StepPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B6CD761E3C087000DA4BDF /* Build configuration list for PBXNativeTarget "StepPlusUITests" */;
+			buildPhases = (
+				48B6CD661E3C087000DA4BDF /* Sources */,
+				48B6CD671E3C087000DA4BDF /* Frameworks */,
+				48B6CD681E3C087000DA4BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48B6CD6C1E3C087000DA4BDF /* PBXTargetDependency */,
+			);
+			name = StepPlusUITests;
+			productName = StepPlusUITests;
+			productReference = 48B6CD6A1E3C087000DA4BDF /* StepPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48B6CD4C1E3C087000DA4BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joe Quezada";
+				TargetAttributes = {
+					48B6CD531E3C087000DA4BDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6BPUBF38X5;
+						ProvisioningStyle = Automatic;
+					};
+					48B6CD691E3C087000DA4BDF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6BPUBF38X5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48B6CD531E3C087000DA4BDF;
+					};
+				};
+			};
+			buildConfigurationList = 48B6CD4F1E3C087000DA4BDF /* Build configuration list for PBXProject "StepPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48B6CD4B1E3C087000DA4BDF;
+			productRefGroup = 48B6CD551E3C087000DA4BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48B6CD531E3C087000DA4BDF /* StepPlus */,
+				48B6CD691E3C087000DA4BDF /* StepPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48B6CD521E3C087000DA4BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B6CD641E3C087000DA4BDF /* LaunchScreen.storyboard in Resources */,
+				48B6CD611E3C087000DA4BDF /* Assets.xcassets in Resources */,
+				48B6CD5F1E3C087000DA4BDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B6CD681E3C087000DA4BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B6CD501E3C087000DA4BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B6CD7A1E3C0E1000DA4BDF /* ReportViewController.swift in Sources */,
+				48B6CD5C1E3C087000DA4BDF /* FeedbackViewController.swift in Sources */,
+				48B6CD581E3C087000DA4BDF /* AppDelegate.swift in Sources */,
+				48B6CD7C1E3C0E6100DA4BDF /* SettingsViewController.swift in Sources */,
+				48B6CD5A1E3C087000DA4BDF /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B6CD661E3C087000DA4BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B6CD6F1E3C087000DA4BDF /* StepPlusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48B6CD6C1E3C087000DA4BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48B6CD531E3C087000DA4BDF /* StepPlus */;
+			targetProxy = 48B6CD6B1E3C087000DA4BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48B6CD5D1E3C087000DA4BDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B6CD5E1E3C087000DA4BDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48B6CD621E3C087000DA4BDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B6CD631E3C087000DA4BDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48B6CD711E3C087000DA4BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48B6CD721E3C087000DA4BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48B6CD741E3C087000DA4BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BPUBF38X5;
+				INFOPLIST_FILE = StepPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = majoqueva.StepPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		48B6CD751E3C087000DA4BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BPUBF38X5;
+				INFOPLIST_FILE = StepPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = majoqueva.StepPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		48B6CD771E3C087000DA4BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6BPUBF38X5;
+				INFOPLIST_FILE = StepPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = majoqueva.StepPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StepPlus;
+			};
+			name = Debug;
+		};
+		48B6CD781E3C087000DA4BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6BPUBF38X5;
+				INFOPLIST_FILE = StepPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = majoqueva.StepPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StepPlus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48B6CD4F1E3C087000DA4BDF /* Build configuration list for PBXProject "StepPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B6CD711E3C087000DA4BDF /* Debug */,
+				48B6CD721E3C087000DA4BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B6CD731E3C087000DA4BDF /* Build configuration list for PBXNativeTarget "StepPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B6CD741E3C087000DA4BDF /* Debug */,
+				48B6CD751E3C087000DA4BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48B6CD761E3C087000DA4BDF /* Build configuration list for PBXNativeTarget "StepPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B6CD771E3C087000DA4BDF /* Debug */,
+				48B6CD781E3C087000DA4BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48B6CD4C1E3C087000DA4BDF /* Project object */;
+}
